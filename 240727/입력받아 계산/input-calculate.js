@@ -1,4 +1,5 @@
 const fs = require("fs");
-let a = Number(fs.readFileSync(0).toString());
+let a = fs.readFileSync(0).toString();
+a = Number(a);
 
 console.log(a+2);
