@@ -5,7 +5,7 @@ if (n == "S") {
     console.log("Superior")
 }
 else if (n == "A") {
-    cnosole.log("Excellent")
+    console.log("Excellent")
 }
 else if (n == "B") {
     console.log("Good")
