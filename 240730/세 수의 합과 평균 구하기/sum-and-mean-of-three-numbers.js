@@ -7,4 +7,4 @@ let c = Number(n[2]);
 
 let plus = a + b + c;
 
-console.log(`${plus}\n${(plus/3).toFixed(0)}`)
+console.log(`${plus}\n${parseInt(plus/3)}`)
