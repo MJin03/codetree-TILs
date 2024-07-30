@@ -7,10 +7,10 @@ let c = Number(n[2]);
 
 let min;
 
-if (a < b && a < c) {
+if (a <= b && a <= c) {
     min = a;
 }
-else if (b < a && b < c) {
+else if (b <= a && b <= c) {
     min = b;
 }
 else {
