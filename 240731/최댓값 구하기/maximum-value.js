@@ -11,6 +11,6 @@ if (a>b && a>c) {
 else if (b>a && b>c) {
     console.log(b);
 }
-else {
+else if (c>a && c>b) {
     console.log(c);
 }
