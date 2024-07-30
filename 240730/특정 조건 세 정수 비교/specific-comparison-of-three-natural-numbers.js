@@ -7,14 +7,14 @@ let c = Number(n[2]);
 
 let resultA, resultB;
 
-if (a<b && a<c) {
+if (a<=b && a<=c) {
     resultA = 1;
 }
 else {
     resultA = 0;
 }
 
-if (a==b==c) {
+if (a==b && b==c) {
     resultB = 1;
 }
 else {
