@@ -1,19 +1,19 @@
 const fs = require("fs");
 let n = fs.readFileSync(0).toString().trim();
 
-if (n == 'S') {
+if (n == "S") {
     console.log("Superior")
 }
-else if (n == 'A') {
+else if (n == "A") {
     cnosole.log("Excellent")
 }
-else if (n == 'B') {
+else if (n == "B") {
     console.log("Good")
 }
-else if (n == 'C') {
+else if (n == "C") {
     console.log("Usually")
 }
-else if (n == 'D') {
+else if (n == "D") {
     console.log("Effort")
 }
 else {
