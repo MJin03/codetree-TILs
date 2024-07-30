@@ -1,5 +1,5 @@
 const fs = require("fs");
-let n = Number(fs.readFileSync(0).toStirng().trim());
+let n = Number(fs.readFileSync(0).toString().trim());
 
 let result = "";
 
