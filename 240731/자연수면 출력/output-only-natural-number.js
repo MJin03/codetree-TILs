@@ -11,5 +11,8 @@ if (a>0) {
         result += a + "";
     }
 }
+else {
+    console.log(0);
+}
 
 console.log(result);
