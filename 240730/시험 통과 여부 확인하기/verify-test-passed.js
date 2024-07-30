@@ -7,5 +7,5 @@ if (spire <= 0) {
     console.log("pass")
 }
 else {
-    console.log(`"${spire} more score"`)
+    console.log(`${spire} more score`)
 }
