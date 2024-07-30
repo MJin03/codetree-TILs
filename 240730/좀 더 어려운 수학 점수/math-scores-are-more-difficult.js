@@ -6,15 +6,9 @@ let b = n[1].split(" ");
 let ma = Number(a[0]), ea = Number(a[1]);
 let mb = Number(b[0]), eb = Number(b[1]);
 
-if (ma>mb && ea>eb || eb>ea) {
+if (ma>mb || (ma==mb && ea>eb)) {
     console.log("A")
 }
-else if (mb>ma && ea>eb || eb>ea) {
-    console.log("B")
-}
-else if (ma==mb && ea>eb) {
-    console.log("A")
-}
-else if (ma==mb && eb>ea) {
+else {
     console.log("B")
 }
